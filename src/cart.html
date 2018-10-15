@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="Keywords" content="360商城，智能硬件，免费试用，智能家居，智能手表，智能家电"/>
+        <meta name="Description" content="360商城是一家智能硬件体验平台。这里能免费试用智能硬件，查看全方位试用报告，还可以预约、抢购并体验新上市的智能产品。"/>
+        <title>360商城详情页</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div id="wrap">
+        <!--网页头部-->
+        <div id="header"></div>
+
+        <!--购物车-->
+        <div class="gCart">
+            <div class="hd"><h3>我的购物车</h3>
+                </div>
+            <div class="bd" id="cartbody">
+        
+                <link rel="stylesheet" type="text/css" href="https://static.i360mall.com/mall/css/qikoo-v.css?v=t0.0.32">
+                <link rel="stylesheet" type="text/css" href="https://static.i360mall.com/mall/css/list.css?v=t0.0.32">
+                <link rel="stylesheet" type="text/css" href="https://static.i360mall.com/mall/css/shopcart_new.css?v=t0.0.32">
+                
+        
+        
+                <div class="cartEmpty">
+                    <a href="https://i360mall.com" title="马上去购物" class="toShoping"></a>
+                </div>
+        
+        
+        
+        
+        <!-- <script type="text/javascript">
+        
+            $(".close").click(function () {
+                $(".gift-box").css("display", "none");
+                $(".wnalert").css("display", "none");
+            });
+            $(".cancel-gift").click(function () {
+                $(".gift-box").css("display", "none");
+                $(".wnalert").css("display", "none");
+            });
+            loadStockState();
+            queryGuessWhatYouLike();
+            var items = '';
+            var itemsObj = eval('(' + items + ')');
+            querySkuPic();
+            var skuIds = [];
+            if (items && items != '') {
+                var xqo = eval('(' + items + ')');
+                for (var i in xqo) {
+                    skuIds.push(xqo[i].id);
+                }
+            }
+            var _mvq = window._mvq || [];
+            window._mvq = _mvq;
+            _mvq.push(['$setAccount', 'm-251506-0']);
+            _mvq.push(['$setGeneral', 'cartview', '', /*用户名*/ '', /*用户id*/ '']);
+            _mvq.push(['$logConversion']);
+            _mvq.push(['$addItem', '', /*商品id*/ skuIds.join(","), '', '']);
+            _mvq.push(['$logData']);
+        </script>
+         -->
+        
+        <!-- <div class="mod-dialog-bg"></div>
+        <div class="dialog-mod">
+            <div class="dialog-nav">
+                <span class="dialog-title">提示</span>
+        
+            </div>
+            <div class="dialog-main">
+                <div class="dialog-content">
+                    <p>确认从购物车中删除此商品？</p>
+                </div>
+                <div class="dialog-console">
+                    <a class="console-btn-confirm" href="#">确定</a>
+                    <a class="console-btn-cancel" href="javascript:void(0);">取消</a>
+                </div>
+            </div>
+        </div> -->
+        
+        
+        
+            </div>
+        </div>
+         
+
+        <!--网页底部-->
+        <div id="footer"></div>
+	</div>
+	<script src="script/js/require.js" type="text/javascript"  defer async="true" data-main="script/js/maincart.js"></script>
+</body>
+</html>

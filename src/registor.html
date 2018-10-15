@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="Keywords" content="360商城，智能硬件，免费试用，智能家居，智能手表，智能家电"/>
+        <meta name="Description" content="360商城是一家智能硬件体验平台。这里能免费试用智能硬件，查看全方位试用报告，还可以预约、抢购并体验新上市的智能产品。"/>
+        <title>360商城注册页</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/registor.css">
+</head>
+<body>
+    <div id="doc">
+        <div class="reg-page">
+                <div id="regHeader">
+                        <div class="header-content">
+                            <span class="switch-login">
+                                <a href="http://10.31.162.234/i360project/src/login.html" title="登录" target="_blank">登录</a>
+                            </span>
+                            <a href="https://i.360.cn/reg?src=pcw_i360&amp;destUrl=https%3A%2F%2Fi.360.cn" title="">
+                                <span class="logo"></span>
+                            </a>
+                            <span class="page-title">
+                                <a href="#" title="注册帐号">注册帐号</a>
+                            </span>
+                            <div class="clear"></div>
+                        </div>
+                            
+                    </div>
+            
+                    <div class="reg-content">
+                            <div id="regWrap" style="display: block;">
+                                <div class="reg-title">
+                                注册360帐号
+                                </div>
+                                <div class="quc-sign-up-wrapper quc-wrapper quc-page">
+                                    <div class="quc-mod-sign-up quc-clearfix"> 
+                                        <div class="quc-main">
+                                            <form class="quc-form" method="post" action="http://10.31.162.234/i360project/php/reg.php"><!--表单验证-->
+            
+                                                    <p class="quc-field quc-field-mobile quc-input-long">
+                                                            <label class="quc-label" for="account"></label>
+                                                            <input class="quc-input quc-input-mobile" type="tel" name="account" id="account" placeholder="请输入要注册的手机号">
+                                                            <lable class="quc-tip error" id="account-error" for="account"></lable>
+                                                    </p>
+                                                    
+            
+            
+                                                    <p class="quc-field quc-field-password quc-input-long">
+                                                            <label class="quc-label" for="password"></label>
+                                                            <input class="quc-input quc-input-password" type="password" name="password" id="password" placeholder="密码请设置8-20个字符" maxlength="20">
+                                                             <lable class="error" id="password-error" for="password"></lable>
+                                                    </p>
+                                                    
+                                                   
+            
+            
+            
+                                                    <p class="quc-field quc-field-captcha quc-input-short" style="display: block;position:relative">
+                                                            <input  class="quc-captcha-img quc-captcha-change" id="quc-captcha-change" disabled="disabled" value="点击显示验证码">
+                                                            <input class="quc-input-captcha" type="text" name="captcha" id="captcha" placeholder="请输入验证码" autocomplete="off">
+                                                            <lable class="error" for="captcha" id="captcha-error"></lable>
+                                                    </p>
+                                                    
+            
+            
+                                                    <p class="quc-field quc-next-step quc-clearfix">
+                                                        <input class="quc-nextAndGet-sms-token"  type="submit" name="submit" value="立即注册">
+                                                    </p>
+
+            
+            
+                                                    <p class="quc-field quc-field-licence">
+                                                        <label>
+                                                            <input class="quc-checkbox" type="checkbox" name="is_agree" id="is_agree" data-name="agreeLicence">
+                                                            <lable class="quc-tip error" id="is_agree-error" for="is_agree"></lable>
+                                                            <span>阅读并同意
+                                                                <a class="quc-link" href="//i.360.cn/pub/protocol.html" target="_blank">“360用户协议”</a>
+                                                                和
+                                                                <a class="quc-link" href="//i.360.cn/reg/privacy" target="_blank">“360用户隐私政策”</a>
+                                                            </span>
+                                                        </label>
+                                                    </p>
+            
+            
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+            
+        </div>
+            
+        
+                <div class="other-info">
+                        <span class="gray-line">
+                             <a href="http://i.360.cn/findpwd/customerhelper?sb_param=edd4111a2d33cc5cf57f3508bb49585b" title="帮助中心" target="_blank">帮助中心</a>
+                        </span>
+                        <span>
+                             <a href="http://i.360.cn/complaint?sb_param=231814205eb0b557cc4eb53023d4a475" title="立即申诉" target="_blank">立即申诉</a>
+                        </span>
+                 </div>
+        
+        
+                 <div id="ft">
+                     Copyright©2005-
+                     <span id="currentYear">2018</span>
+                      360.CN All Rights Reserved 360安全中心
+                    <p>
+                        <a target="_blank" href="http://www.miibeian.gov.cn?sb_param=c195683f00c3adfae5ec327e62bbbc62">京ICP证080047号[京ICP备08010314号-6] </a>
+                    </p>
+                    <p>
+                        <a style="color:#999;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000006&amp;sb_param=5d8d61c8ec94f34920b8785c59c05fad" target="_blank">
+                        <img class="wangan" src="https://i.360.cn/static/img/wangan-icon.png?v=d0289.png">京公网安备 11000002000006号</a>
+                    </p>
+                </div>
+    </div>
+        
+	<script src="script/js/require.js" type="text/javascript"  defer async="true" data-main="script/js/mainregistor.js"></script>
+    
+</body>
+</html>

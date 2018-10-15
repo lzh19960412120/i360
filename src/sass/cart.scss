@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import "header";
+@import "footer";
+  
+
+.header_top,.search,.topshopcart,.header_botton_3{
+    display: none;
+}
+.header_botton_2{
+    border-bottom: 1px solid #000;
+}
+.gCart {
+    width: 1240px;
+    margin: 19px auto 29px;
+    border: 1px solid #DDD;
+    .bd {
+        background: #FFF;
+        padding: 15px;
+    }
+    .cartEmpty {
+        width: 900px;
+        height: 268px;
+        background: url('http://static.i360mall.com/mall/images/cart_empty.jpg') no-repeat;
+    }
+}
+.gCart .hd {
+    height: 50px;
+    background: #FFF;
+    border-bottom: 1px solid #DDD;
+    line-height: 50px;
+    text-indent: 20px;
+    h3 {
+        font-weight: normal;
+        font-size: 18px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+}
+.gCart .cartEmpty a.toShoping, .gCart .cartEmpty a.toShoping:link {
+    margin-left: 322px;
+    margin-top: 140px;
+    width: 158px;
+    height: 40px;
+    background: url('http://static.i360mall.com/mall/images/qiku_bg.png') 0 -1934px no-repeat;
+    float: left;
+}

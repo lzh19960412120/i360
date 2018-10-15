@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="Keywords" content="360商城，智能硬件，免费试用，智能家居，智能手表，智能家电"/>
+        <meta name="Description" content="360商城是一家智能硬件体验平台。这里能免费试用智能硬件，查看全方位试用报告，还可以预约、抢购并体验新上市的智能产品。"/>
+        <title>360商城登录页</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login">
+        <div class="bg" style="transform: matrix(1.03, 0, 0, 1.03, 0, 0);"></div>
+        <div class="logo"></div><!--360logo-->
+
+
+        <div class="login_main">
+
+            <div class="wrap">
+                <div class="biglogo"><!--右侧旋转的图-->
+                    <div class="tuzhuan"></div>
+                </div>
+
+
+                <div class="login_table"><!--表单登录-->
+                    <div class="table_header">
+                        <div class="center">
+                             <div class="login360">  
+                                <a href="javascript:;" class="quc-tab-item-inner active">360帐号登录</a>
+                            </div>  
+                            <div class="messagelogin"> 
+                                <span class="fengexian"></span> <!--分隔线-->
+                                <a href="javascript:;" class="quc-tab-item-inner">短信登录</a>
+                            </div>   
+                        </div>
+                           
+                    </div>
+
+
+                    <div class="table_main">
+                        <div class="center" style="width:300">
+                                <div id="error"></div>
+                                <form method="POST" class="quc-form" onsubmit="return false;">
+                
+                                         <p class="quc-input">
+                                            <input type="text" id="userName" name="userName" placeholder="手机号/用户名/邮箱">
+                                         </p>
+                                        <p class="quc-input">
+                                            <input type="password" id="password"  name="password" placeholder="密码">
+                                        </p>
+                    
+                                    <!-- <div class="loginfor_360" style="display:none;">//tab切换
+                                        <p class="quc-input">
+                                           <input name="userName" placeholder="手机号">
+                                        </p>
+                                       <div class="quc-input">
+                                           <input type="password" name="password" placeholder="验证码">
+                                           <div class="quc-input-append">
+                                               <span class="quc-link quc-get-token">获取验证码</span>
+                                           </div>
+                                       </div>
+                                   </div> -->
+                                       
+                                        <p class="quc-button-list">
+                                            <input type="button" name="submit" value=" 登录  " id="btn" class="quc-button-submit quc-button quc-button-primary">
+                                        </p>
+                                        <div class="way">
+                                             <a href="http://10.31.162.234/i360project/src/registor.html" class="quc-link-sign-up quc-left">快速注册</a>
+                                             <a href="http://i.360.cn/findpwd/" class="quc-right" target="_blank">找回密码</a>
+                                             <div class="clear"></div>
+                                        </div>
+                                </form> 
+
+
+                                <div class="other">
+                                    <div class="other_title">
+                                        <span>其他登录方式</span>
+                                    </div>
+                                    <div class="other_way">
+                                           <div class="center">
+                                                <i data-third="tencent" class="qq quc-icon"></i>
+                                                <i data-third="weixin" class="weixin quc-icon"></i>
+                                                <i data-third="sina" class="sina quc-icon"></i>         
+                                           </div>
+                                    </div>
+                                </div>     
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+       
+
+    </div>
+
+
+    <div class="login_footer">
+        <div>
+            <div class="footer_top">
+                <a href="/complaint?sb_param=a5f426f72b9ef0959febd9a49a0c7a87" class="entrance-item" target="_blank" style="margin: 0">
+                    <i class="iconfont"></i>
+                    <h3>帐号申诉</h3>
+                    <p>人工客服解决问题</p>
+                </a>
+                <a href="/findpwd/customerhelper?sb_param=523422a1576b1aa824d9cbad6dfac3fe" class="entrance-item" target="_blank">
+                    <i class="iconfont"></i>
+                    <h3>帮助中心</h3>
+                    <p>查看常见用户问题</p>
+                </a>
+                <a href="/findpwd?sb_param=b5b0ad35c76a76687b311526c131cba2" class="entrance-item" target="_blank">
+                    <i class="iconfont"></i>
+                    <h3>找回密码</h3>
+                    <p>自助找回帐号密码</p>
+                </a>
+                <a href="/security/accountguard?sb_param=0a00fe6cb5d8a4edc2917ef38a8276c4" class="entrance-item" target="_blank">
+                    <i class="iconfont"></i>
+                    <h3>帐号安全</h3>
+                    <p>下载神器告别盗号</p>
+                </a>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+        <div class="copyright">
+            <p>Copyright©2005-2018 360.CN All Rights Reserved 360安全中心</p>
+            <p><a href="http://www.miibeian.gov.cn?sb_param=74adb0e9fbb4148eb3ebe5ebcb71f829&amp;sb_param=1943b073f32796aab16313b90d140e85" target="_blank">京ICP证080047号[京ICP备08010314号-6] 京公网安备 11000002000006号</a></p>
+        </div>
+            
+
+    </div>
+	<script src="script/js/require.js" type="text/javascript"  defer async="true" data-main="script/js/mainlogin.js"></script>
+</body>
+</html>
